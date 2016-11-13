@@ -1,0 +1,7 @@
+{
+  "name": "DV_Boer",
+  "version": "0.0.1",
+  "dependencies": {
+    "materialize-css": "^0.97.8"
+  }
+}

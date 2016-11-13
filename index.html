@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link type="text/css" rel="stylesheet" href="node_modules\materialize-css\dist\css\materialize.min.css"  media="screen,projection"/>
+
+</head>
+<body>
+	<header>
+		<nav class="top-nav">
+			<div class="container">
+				<div class="nav-wrapper">
+					<a href="#" class="page-title">DV Boer</a>
+					<div class="left">
+						<a href="#" data-activates="slide-out" class="button-collapse top-nav full show-on-large"><i class="material-icons">menu</i></a>
+					</div>
+					<ul class="right">
+						<li class="hide-on-med-and-down"><a href="#"><i class="material-icons">mail</i></a></li>
+						<li class="hide-on-med-and-down"><a href="#"><i class="material-icons">notifications_active</i></a></li>
+						<li class="hide-on-large-only"><a href="#" class="dropdown-button" data-activates="dropdown1"><i class="material-icons">more_vert</i></a></li>
+					</ul>
+					<ul id="dropdown1" class="dropdown-content">
+						<li><a href="#" class="waves-effect"><i class="material-icons">mail</i></a></li>
+						<li><a href="#" class="waves-effect"><i class="material-icons">notifications_active</i></a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+				
+  <ul id="slide-out" class="side-nav">
+    <li>
+    	<div class="userView">
+	    	<div class="background">
+	        	<img src="images/office.jpg">
+	      	</div>
+		      <a href="#!user"><img class="circle" src="images/yuna.jpg"></a>
+		      <a href="#!name"><span class="white-text name">John Doe</span></a>
+		      <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+    	</div>
+    </li>
+    <li><a class="subheader">Investor's Lounge</a></li>
+    <li><a href="#!"><i class="material-icons">pets</i>Goat Raising</a></li>
+    <li><a href="#!"><i class="material-icons">work</i>Investment Vault</a></li>
+    <li><a href="#!"><i class="material-icons">loyalty</i>Avail Pa-Iwi Packages</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">Farm's Section</a></li>
+    <li><a class="waves-effect" href="#!"><i class="material-icons">assignment</i>Annoucements</a></li>
+    <li><a class="waves-effect" href="#!"><i class="material-icons">rss_feed</i>News and Updates</a></li>
+    <li><a class="subheader">Settings</a></li>
+    <li><a class="waves-effect" href="#!"><i class="material-icons">notifications</i>Notification</a></li>
+    <li><a class="waves-effect" href="#!"><i class="material-icons">settings</i>About</a></li>
+    <li><a class="waves-effect" href="#!"><i class="material-icons">system_update</i>Get Mobile App</a></li>
+  </ul>
+  
+        
+	</header>
+	<div class="container">
+		<div class="row">
+			<div class="col s12">
+				<h4>Transaction History</h4>
+				<table class="highlight bordered">
+					<thead>
+						<tr>
+							<th>Date</th>
+							<th>Action</th>
+							<th>Amount</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>03/10/2016</td>
+							<td>Payout</td>
+							<td>P90,00.00</td>
+							<td>Payout from Slot #010</td>
+						</tr>
+						<tr>
+							<td>09/10/2015</td>
+							<td>Downpayment</td>
+							<td>P53,500.00</td>
+							<td>Third deposit for Slot #010</td>
+						</tr>
+						<tr>
+							<td>08/10/2015</td>
+							<td>Downpayment</td>
+							<td>P53,500.00</td>
+							<td>Second deposit for Slot #010</td>
+						</tr>
+						<tr>
+							<td>07/10/2015</td>
+							<td>Downpayment</td>
+							<td>P107,500.00</td>
+							<td>Initial deposit for Slot #010</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col s12">
+				<ul class="collection with-header">
+					<li class="collection-header"><h4>Investments</h4></li>
+					<li class="collection-item avatar">
+						<img src="images/yuna.jpg" alt="" class="circle">
+						<span class="title">Slot# 010</span>
+
+						<p>
+							Package # 2 <br>
+							Invested on 10/10/2015<br>
+							
+						</p>
+						<a href="#modal1" class="secondary-content waves-effect waves-light" data-activates='dropdown1'><i class="material-icons">grade</i></a>
+					</li>
+					<li class="collection-item avatar">
+						<img src="../images/yuna.jpg" alt="" class="circle">
+						<span class="title">Slot# 034</span>
+
+						<p>
+							Package # 1 <br>
+							Invested on 02/05/2016<br>
+							
+						</p>
+						<a href="#modal2" class="secondary-content waves-effect waves-light"><i class="material-icons">grade</i></a>
+					</li>
+					<li class="collection-item avatar">
+						<img src="images/yuna.jpg" alt="" class="circle">
+						<span class="title">Slot# 044</span>
+
+						<p>
+							Package # 2 <br>
+							Invested on 05/10/2016<br>
+							
+						</p>
+						<a href="#modal1" class="secondary-content waves-effect waves-light"><i class="material-icons">grade</i></a>
+					</li>
+				</ul>
+				<div id="modal1" class="modal">
+					<div class="modal-content">
+						<h4>Slot # 010</h4>
+						<p>
+							Package # 2 <br>
+							Invested on 05/10/2016<br>
+							Status: Active <br>
+							Investmented Amount: P215,000.00
+						</p>
+					</div>
+					<div class="modal-footer">
+						<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+					</div>
+				</div>
+				<div id="modal2" class="modal">
+					<div class="modal-content">
+						<h4>Slot# 034</h4>
+						<p>
+							Package # 1 <br>
+							Invested on 02/05/2016<br>
+							Status: On Payment <br>
+							Investmented Amount: P107,500.00
+						</p>
+					</div>
+					<div class="modal-footer">
+						<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<!-- <div class="col s12">
+				<h4>Goats</h4>
+			</div> -->
+			<div class="col l4 m6 s12">
+				<div class="card">
+					<div class="card-image waves-effect waves-block waves-light">
+						<img class="activator" src="images/boer1.jpg">
+					</div>
+					<div class="card-content">
+						<span class="card-title activator grey-text text-darken-4">Goat: 410<i class="material-icons right">more_vert</i></span>
+					</div>
+					<div class="card-reveal">
+						<span class="card-title grey-text text-darken-4">Goat: 410<i class="material-icons right">close</i></span>
+						<p>
+							<a href="#" class="waves-effect"><i class="material-icons">collections</i></a> Photos<br>
+							<a href="#" class="waves-effect"><i class="material-icons">content_paste</i></a> Medical Records <br>
+							<a href="#" class="waves-effect"><i class="material-icons">favorite</i></a> Offsprings <br>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col l4 m6 s12">
+				<div class="card">
+					<div class="card-image waves-effect waves-block waves-light">
+						<img class="activator" src="images/boer2.jpg">
+					</div>
+					<div class="card-content">
+						<span class="card-title activator grey-text text-darken-4">Goat: 411<i class="material-icons right">more_vert</i></span>
+					</div>
+					<div class="card-reveal">
+						<span class="card-title grey-text text-darken-4">Goat: 411<i class="material-icons right">close</i></span>
+						<p>
+							<a href="#" class="waves-effect"><i class="material-icons">collections</i></a> Photos<br>
+							<a href="#" class="waves-effect"><i class="material-icons">content_paste</i></a> Medical Records <br>
+							<a href="#" class="waves-effect"><i class="material-icons">favorite</i></a> Offsprings <br>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col l4 m6 s12">
+				<div class="card">
+					<div class="card-image waves-effect waves-block waves-light">
+						<img class="activator" src="images/boer3.jpg">
+					</div>
+					<div class="card-content">
+						<span class="card-title activator grey-text text-darken-4">Goat: 412<i class="material-icons right">more_vert</i></span>
+					</div>
+					<div class="card-reveal">
+						<span class="card-title grey-text text-darken-4">Goat: 412<i class="material-icons right">close</i></span>
+						<p>
+							<a href="#" class="waves-effect"><i class="material-icons">collections</i></a> Photos<br>
+							<a href="#" class="waves-effect"><i class="material-icons">content_paste</i></a> Medical Records <br>
+							<a href="#" class="waves-effect"><i class="material-icons">favorite</i></a> Offsprings <br>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<footer>
+	<script type="text/javascript" src="node_modules\jquery\dist\jquery.min.js"></script>
+	<script type="text/javascript" src="node_modules\materialize-css\dist\js\materialize.min.js"></script>
+	<script type="text/javascript">
+		$(".button-collapse").sideNav();
+		$('.modal').modal();
+	</script>
+</footer>
+</html>
