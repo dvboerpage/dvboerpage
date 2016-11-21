@@ -5,6 +5,7 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<link type="text/css" rel="stylesheet" href="css\materialize.min.css"  media="screen,projection"/>
+	<link type="text/css" rel="stylesheet" href="css\style.css"  media="screen,projection"/>
 
 </head>
 <body>
@@ -59,70 +60,116 @@
 	<div class="container">
 		<div class="row">
 			<div class="col s12">
-				<ul class="collection with-header">
-					<li class="collection-header"><h4>Investments</h4></li>
-					<li class="collection-item avatar">
-						<img src="images/yuna.jpg" alt="" class="circle">
-						<span class="title">Slot# 010</span>
-
-						<p>
-							Package # 2 <br>
-							Invested on 10/10/2015<br>
-							
-						</p>
-						<a href="#modal1" class="secondary-content waves-effect waves-light" data-activates='dropdown1'><i class="material-icons">grade</i></a>
+				<h4>Investments</h4>
+			</div>
+			<div class="col s12">
+				<ul class="collapsible" data-collapsible="accordion">
+					<li>
+						<div class="collapsible-header teal lighten-5">
+							<img src="images/yuna.jpg" alt="" class="circle collapsible-header-img"> Slot: 10
+							<div class="chip right margin-top-10 teal">
+								Active
+							</div>
+						</div>
+						<div class="collapsible-body">
+							<div class="container-90">
+								<div class="row">
+									<div class="col s12">
+										<h5 class="center-align">Package Details</h5>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col s12">
+										<h5 class="center-align">Investment History</h5>
+										<ul class="collection">
+											<li class="collection-item">
+												<i class="material-icons">star</i>
+												<span class="something">Received pay-out P93,000.00 on 10/06/2016</span>
+											</li>
+											<li class="collection-item">
+												<i class="material-icons">payment</i>
+												<span class="something">Deposited P53,750.00 on 07/26/2016</span>
+											</li>
+											<li class="collection-item">
+												<i class="material-icons">payment</i>
+												<span class="something">Deposited P53,750.00 on 06/26/2016</span>
+											</li>
+											<li class="collection-item">
+												<i class="material-icons">payment</i>
+												<span class="something">Deposited P107,500.00 on 05/26/2016</span>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
 					</li>
-					<li class="collection-item avatar">
-						<img src="images/yuna.jpg" alt="" class="circle">
-						<span class="title">Slot# 034</span>
-
-						<p>
-							Package # 1 <br>
-							Invested on 02/05/2016<br>
-							
-						</p>
-						<a href="#modal2" class="secondary-content waves-effect waves-light"><i class="material-icons">grade</i></a>
+					<li>
+						<div class="collapsible-header blue lighten-5">
+							<img src="images/yuna.jpg" alt="" class="circle collapsible-header-img"> Slot: 21
+							<div class="chip right margin-top-10 blue">
+								Processing
+							</div>
+						</div>
+						<div class="collapsible-body">
+							<div class="container-90">
+								<div class="row">
+									<div class="col s12">
+										<h5 class="center-align">Package Details</h5>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col s12">
+										<h5 class="center-align">Investment History</h5>
+										<ul class="collection">
+											<li class="collection-item">
+												<i class="material-icons">star</i>
+												<span class="something">Received pay-out P93,000.00 on 10/06/2016</span>
+											</li>
+											<li class="collection-item">
+												<i class="material-icons">payment</i>
+												<span class="something">Deposited P53,750.00 on 07/26/2016</span>
+											</li>
+											<li class="collection-item">
+												<i class="material-icons">payment</i>
+												<span class="something">Deposited P53,750.00 on 06/26/2016</span>
+											</li>
+											<li class="collection-item">
+												<i class="material-icons">payment</i>
+												<span class="something">Deposited P107,500.00 on 05/26/2016</span>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
 					</li>
-					<li class="collection-item avatar">
-						<img src="images/yuna.jpg" alt="" class="circle">
-						<span class="title">Slot# 044</span>
-
-						<p>
-							Package # 2 <br>
-							Invested on 05/10/2016<br>
-							
-						</p>
-						<a href="#modal1" class="secondary-content waves-effect waves-light"><i class="material-icons">grade</i></a>
+					<li>
+						<div class="collapsible-header orange lighten-5">
+							<img src="images/yuna.jpg" alt="" class="circle collapsible-header-img"> Slot: 22
+							<div class="chip right margin-top-10 orange">
+								Confirmation
+							</div>
+						</div>
+						<div class="collapsible-body">
+							<div class="container-90">
+								<div class="row">
+									<div class="col s12">
+										<h5 class="center-align">Package Details</h5>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col s12">
+										<h5 class="center-align">Investment History</h5>
+										<ul class="collection">
+											
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
 					</li>
 				</ul>
-				<div id="modal1" class="modal">
-					<div class="modal-content">
-						<h4>Slot # 010</h4>
-						<p>
-							Package # 2 <br>
-							Invested on 05/10/2016<br>
-							Status: Active <br>
-							Investmented Amount: P215,000.00
-						</p>
-					</div>
-					<div class="modal-footer">
-						<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
-					</div>
-				</div>
-				<div id="modal2" class="modal">
-					<div class="modal-content">
-						<h4>Slot# 034</h4>
-						<p>
-							Package # 1 <br>
-							Invested on 02/05/2016<br>
-							Status: On Payment <br>
-							Investmented Amount: P107,500.00
-						</p>
-					</div>
-					<div class="modal-footer">
-						<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
-					</div>
-				</div>
 			</div>
 		</div>
 		<div class="row">
